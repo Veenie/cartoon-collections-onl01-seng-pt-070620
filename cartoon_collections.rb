@@ -15,7 +15,13 @@ end
 
 def long_planeteer_calls(words)
   # Your code here
-  
+  words.each do |i|
+    if i.length > 4
+      true
+    else
+      false
+    end
+  end  
 end
 
 def find_the_cheese# code an argument here
