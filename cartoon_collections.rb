@@ -1,7 +1,14 @@
 def roll_call_dwarves# code an argument here
   # Your code here
   
-  
+    dwarves = []
+    counter = 1
+    deli.each do |person|
+      current_line << " #{counter}. #{person}"
+      counter += 1
+    end
+  puts current_line
+  end
   
 end
 
