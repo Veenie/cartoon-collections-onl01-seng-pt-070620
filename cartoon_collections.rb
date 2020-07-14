@@ -27,6 +27,6 @@ end
 def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.detect{|i| i.odd?}
+  snacks.detect{|i| i.}
   
 end
